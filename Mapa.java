@@ -12,8 +12,8 @@ public class Mapa {
     }
 
     public ArrayList<Peligro> getPeligros() {
-        return peligros;
-    }
+    return peligros;
+}
 
     public ArrayList<Peligro> getPeligrosCercanos(double latitud, double longitud, double rango) {
         ArrayList<Peligro> peligrosCercanos = new ArrayList<>();
